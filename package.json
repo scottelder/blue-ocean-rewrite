@@ -1,0 +1,19 @@
+{
+  "name": "blue-ocean-rewrite",
+  "version": "1.0.0",
+  "description": "Congratulations and welcome to your first day at Blue Ocean! We are literally an underwater agile software development company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo pwd && cd ./client && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selder18/blue-ocean-rewrite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selder18/blue-ocean-rewrite/issues"
+  },
+  "homepage": "https://github.com/selder18/blue-ocean-rewrite#readme"
+}
