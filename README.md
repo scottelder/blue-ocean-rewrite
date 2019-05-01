@@ -11,7 +11,7 @@ We take version control very seriously here at Blue Ocean. You will be expected 
   1. Work on separate branches.
   2. Commit often.
   3. Write clear, concise, imperative-mood commit messages.
-  4. Use `git rebase` to 
   4. Submit pull requests when looking to merge with the master branch.
   5. **Always pull from master onto your working branch and fix conflicts before submitting a pull request to master.** 
-  6. Approve pull requests only if you did not write any of the code submitted for review.
+  6. Use `git rebase` to create a linear commit history when creating a pull request. [See details here.](https://www.atlassian.com/git/tutorials/merging-vs-rebasing "Merging v. Rebasing")
+  7. Approve pull requests only if you did not write any of the code submitted for review.
