@@ -26,11 +26,11 @@ The deep-dive codebase is broken into two major pieces: the client and the serve
 We expect all of our software engineers to be capable of assessing the scope of a ticket and grade it on a point scale of difficulty where 1 point is small, 2 is a good size, 3 is large, 5 is huge, and anything above 5 needs to be broken into multiple tickets if possible. We strongly recommend that you break large ideas down into small chunks of approximately down into tickets of between 1 and 3 points. This will be tremendously helpful when it's time to make a pu
 
 Here are some good practices for arriving at a specific grade when approaching a new topic. You do not need to be familiar with all of these techniqus; pick one that works for you and matches with what the rest of your group would pick and stick to it.
-  1. Consider the [Johari Window](https://www.communicationtheory.org/the-johari-window-model/ "Johari Window"). 
+  ### Consider the [Johari Window](https://www.communicationtheory.org/the-johari-window-model/ "Johari Window"). 
     1. If something is a known-known (you have done this thing before more than once), the process to create will be predictable and consistent. That may mean that is a smaller ticket.
     2. If something is a known-unknown (you haven't done it before but you know people who have and can consult them if you're stuck), the process to create will be predictable but inconsistent. That may mean a slightly larget ticket.
     3. If something is an unknown-known or unknown-unknown (you haven't done it before, you're not sure it can be done in the way you imagine, and no one on the team is familiar with how to do it), the creation process will be unpredictable and inconsistent. That will probably mean a larger ticket.
-  2. Consider the breadth and depth of a given ticket. Tickets should be reasonably narrow and shallow.
+  ### Consider the breadth and depth of a given ticket. Tickets should be reasonably narrow and shallow.
     1. A broad ticket is one which touches many components.
     2. A deep ticket is one which adds a complex feature, changes many existing features, or adds many simple features within a single component.
 
