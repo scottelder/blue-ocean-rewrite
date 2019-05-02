@@ -30,7 +30,9 @@ Here are some good practices for arriving at a specific grade when approaching a
     1. If something is a known-known (you have done this thing before more than once), the process to create will be predictable and consistent. That may mean that is a smaller ticket.
     2. If something is a known-unknown (you haven't done it before but you know people who have and can consult them if you're stuck), the process to create will be predictable but inconsistent. That may mean a slightly larget ticket.
     3. If something is an unknown-known or unknown-unknown (you haven't done it before, you're not sure it can be done in the way you imagine, and no one on the team is familiar with how to do it), the creation process will be unpredictable and inconsistent. That will probably mean a larger ticket.
-  2. 
+  2. Consider the breadth and depth of a given ticket. Tickets should be reasonably narrow and shallow.
+    1. A broad ticket is one which touches many components.
+    2. A deep ticket is one which adds a complex feature, changes many existing features, or adds many simple features within a single component.
 
 ## Developer Operations
 Now that you're at a real company with many people who might all need simultaneous but separate access to a single deployed instance, it's time to think about SSH operational security and how to manage multiple users through AWS. Not every member of your team will need access to either AWS credentials or to an SSH key-pair (such a broad distribution can create chaos) but you shoud avoid bottlenecking by wisely distributing access across team members.
