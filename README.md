@@ -1,4 +1,6 @@
-# blue-ocean-rewrite
+# Welcome to Blue Ocean!
+
+How do you feel today? [![Build Status](https://travis-ci.com/hratx39-blue-ocean/deep-dive.svg?branch=master)](https://travis-ci.com/hratx39-blue-ocean/deep-dive)
 
 ## Contribution Guidelines
 We expect our new software engineers to start contributing to our codebase immediately. That doesn't mean we want maverick manatees swimming wild and munching on whatever looks tastiest with no concern for what other herdmates are doing. That means:
