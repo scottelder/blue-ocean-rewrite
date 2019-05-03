@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+// import './App.css';
 
 export default class App extends Component {
   constructor(props) {
@@ -22,7 +22,7 @@ export default class App extends Component {
       <>
         <h1>Welcome to Blue Ocean!</h1>
         <ul>
-          { this.state.seaCreatures.map(creature, index => <li key={index}>{creature}</li>) }
+          { this.state.seaCreatures.map((creature, index) => <li key={index}>{creature}</li>) }
         </ul>
       </>
     )
