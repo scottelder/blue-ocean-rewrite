@@ -1,5 +1,5 @@
-import { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
+import './App.css';
 
 export default class App extends Component {
   constructor(props) {
@@ -7,6 +7,14 @@ export default class App extends Component {
     this.state = {
       seaCreatures: []
     }
+    this.api = `http://localhost:8000/api/example`;
+  }
+  componentDidMount(){
+    fetch(this.api)
+    .then(res => res.json())
+    .then(seaCreatures => {
+      this.setState({ seaCreatures: seaCreatures.data})
+    })
   }
 
   render() {

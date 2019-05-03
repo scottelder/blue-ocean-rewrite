@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/selder18/blue-ocean-rewrite/issues"
   },
-  "homepage": "https://github.com/selder18/blue-ocean-rewrite#readme"
+  "homepage": "https://github.com/selder18/blue-ocean-rewrite#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
