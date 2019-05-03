@@ -4,7 +4,9 @@
   "description": "Congratulations and welcome to your first day at Blue Ocean! We are literally an underwater agile software development company.",
   "main": "index.js",
   "scripts": {
-    "test": "echo pwd && cd ./client && npm test"
+    "setup": "cd ./client && npm install ; cd ../server && npm install",
+    "test": "echo pwd && cd ./client && npm test",
+    "launch": "cd ./server && node bin/www && cd ../client && npm run-script start &"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,8 @@
     "url": "https://github.com/selder18/blue-ocean-rewrite/issues"
   },
   "homepage": "https://github.com/selder18/blue-ocean-rewrite#readme",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  },
   "devDependencies": {}
 }
